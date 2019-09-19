@@ -45,7 +45,7 @@ background-image:
   width: 98%;
   text-align: left;
   color: white;
-  bottom: 0;
+  top: 0;
 }
 
 .socials li {
@@ -56,7 +56,7 @@ background-image:
   vertical-align: top;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 425px) {
   .navigation {
     margin-left: 10px;
     width: 95%;
