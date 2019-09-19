@@ -113,6 +113,7 @@ background-image:
   }
 }
 
+
 .projects {
   padding-top: 10px;
   margin: 0 auto;
@@ -130,6 +131,26 @@ background-image:
   color: white;
 }
 
+
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
 .minute {
   font-size: 10px;
   margin-top: 0;
@@ -140,6 +161,43 @@ background-image:
   max-width: 800px;
   text-align: center;
 }
+
+.projectLinks {
+  word-spacing: 5px;
+  font-weight: bold;
+}
+
+.projectLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.projectLinks a:hover {
+  text-decoration: underline;
+}
+
+.project0 {
+  background-image: url("../assets/project0.png");
+  background-position: top;
+  background-size: cover;
+}
+.project1 {
+  background-image: url("../assets/project1.png");
+  background-position: top;
+  background-size: cover;
+}
+.project2 {
+  background-image: url("../assets/project2.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.project3 {
+  background-image: url("../assets/project3.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+
 
 .project_imgCards {
   display: inline-block;
@@ -162,7 +220,7 @@ background-image:
 .project_imgCards:hover {
   transition-timing-function: ease-in-out;
   transition: 0.3s;
-  height: 150px;
+  height: 300px;
 }
 
 .project_imgCards img {
@@ -171,15 +229,33 @@ background-image:
   object-fit: cover;
 }
 
-.projectDetails {
+.projectDescription {
+  font-size: 14px;
+  width: 300px;
+  font-weight: 300;
+  text-transform: none;
+  position: fixed;
+  top: 60px;
+  transition-timing-function: ease-in-out;
+}
+
+.descrip0 {
+  left: -93px;
+}
+.descrip1 {
+  left: -136px;
+}
+.descrip2 {
+  left: -113px;
+}
+.descrip3 {
+  left: -122px;
+}
+
+.projectStack{
   font-size: 12px;
   font-weight: lighter;
   font-style: italic;
-  width: 400px;
-  position: fixed;
-  top: 60px;
-  right: -140px;
-  transition-timing-function: ease-in-out;
 }
 
 .projectText {
@@ -187,11 +263,4 @@ background-image:
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.footer {
-  text-align: center;
-  color: white;
-  height: 60px;
-  line-height: 60px;
 }
