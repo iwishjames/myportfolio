@@ -56,7 +56,7 @@ background-image:
   vertical-align: top;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 600px) {
   .navigation {
     margin-left: 10px;
     width: 95%;
