@@ -199,13 +199,9 @@ background-image:
   filter: grayscale(0);
 }
 
-@media only screen and (max-width: 425px) {
-  .project_imgCards:active {
-    transition-timing-function: ease-in-out;
-    transition: 0.3s;
-    height: 300px;
-    filter: grayscale(0);
-  }
+.projectReveal {
+  height: 300px;
+  filter: grayscale(0);
 }
 
 .projectDescription {
