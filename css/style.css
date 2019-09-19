@@ -23,13 +23,8 @@ background-image:
   position: fixed;
   width: 98%;
   text-align: right;
-  margin-top: 5px;
-  margin-right: 50px;
   color: white;
-  /* animation: fadeIn 1.2s ease-in; */
-  /* background-color: black; */
-  height: 30px;
-  line-height: 30px;
+  top: 0;
 }
 
 .navigation li {
@@ -44,6 +39,36 @@ background-image:
 .navigation a:hover {
   text-decoration: underline;
 }
+
+.socials {
+  position: fixed;
+  width: 98%;
+  text-align: left;
+  color: white;
+  bottom: 0;
+}
+
+.socials li {
+  display: inline;
+}
+
+.socials img {
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 425px) {
+  .navigation {
+    margin-left: 10px;
+    width: 95%;
+  }
+
+  .socials {
+    margin-left: -30px;
+    top: 0;
+  }
+}
+
+
 
 .lander {
   /* background-image: url("../assets/bg.jpg");
