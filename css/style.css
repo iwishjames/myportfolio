@@ -42,7 +42,7 @@ background-image:
 
 .socials {
   position: fixed;
-  width: 98%;
+  width: 50%;
   text-align: left;
   color: white;
   top: 0;
@@ -115,41 +115,20 @@ background-image:
 
 
 .projects {
-  padding-top: 10px;
+  padding-top: 80px;
   margin: 0 auto;
   text-align: center;
-  height: 620px;
+  height: 720px;
   color: white;
 }
-
 
 .mainCards {
-  padding-top: 10px;
+  padding-top: 80px;
   margin: 0 auto;
   text-align: center;
-  height: 620px;
+  height: 720px;
   color: white;
 }
-
-
-.slider {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  overflow-x: auto;
-}
-.slide {
-  width: 300px;
-  flex-shrink: 0;
-  height: 100%;
-}
-
-
-
-
-
-
-
 
 .minute {
   font-size: 10px;
@@ -176,28 +155,23 @@ background-image:
   text-decoration: underline;
 }
 
-.project0 {
-  background-image: url("../assets/project0.png");
+.project0, .project1, .project2, .project3 {
   background-position: top;
   background-size: cover;
+}
+
+.project0 {
+  background-image: url("../assets/project0.png");
 }
 .project1 {
   background-image: url("../assets/project1.png");
-  background-position: top;
-  background-size: cover;
 }
 .project2 {
   background-image: url("../assets/project2.jpg");
-  background-position: top;
-  background-size: cover;
 }
 .project3 {
   background-image: url("../assets/project3.jpg");
-  background-position: top;
-  background-size: cover;
 }
-
-
 
 .project_imgCards {
   display: inline-block;
@@ -215,18 +189,14 @@ background-image:
   transition-timing-function: ease-in-out;
   transition: 0.3s;
   position: relative;
+  filter: grayscale(100);
 }
 
 .project_imgCards:hover {
   transition-timing-function: ease-in-out;
   transition: 0.3s;
   height: 300px;
-}
-
-.project_imgCards img {
-  width: 400px;
-  height: 200px;
-  object-fit: cover;
+  filter: grayscale(0);
 }
 
 .projectDescription {
