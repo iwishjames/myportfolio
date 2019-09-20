@@ -14,9 +14,14 @@ background-image:
   linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 1)),
   url("../assets/bgdawn.jpg");
+}
+
+.intro p {
+  padding: 0 5% 0 5%;
 }
 
 .navigation {
@@ -59,8 +64,12 @@ background-image:
 
 @media only screen and (max-width: 425px) {
   .navigation {
-    margin-left: 10px;
-    width: 95%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .navigation ul{
+    padding-right: 10px;
   }
 
   .socials {
@@ -126,6 +135,20 @@ background-image:
   color: white;
 }
 
+@media only screen and (max-width: 425px) {
+.projects {
+  height: 1000px;
+  padding-top: 10%;
+}
+
+.intro {
+  height: 550px;
+}
+
+}
+
+
+
 .mainCards {
   padding-top: 80px;
   margin: 0 auto;
@@ -135,14 +158,23 @@ background-image:
   background-size: cover;
   background-image:
     linear-gradient(
-      to top,
+      to bottom,
       rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 1)),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)),
     url("../assets/bg.jpg");
 }
+@media only screen and (max-width: 425px) {
+  .mainCards {
+    padding-top: 12%;
+  }
+}
+
+.mainCards p {
+  padding: 0 5% 0 5%;
+}
+
 
 .minute {
   font-size: 10px;
@@ -265,14 +297,19 @@ background-image:
   transition-timing-function: ease-in-out;
 }
 
-.descrip0, .descrip1, .descrip5 {
+/* .descrip0, .descrip1, .descrip5 {
   left: 50%;
   transform: translate(-50%, 37.5%);
-}
+} */
 
-.descrip2, .descrip3, .descrip4 {
+.descrip0, .descrip1, .descrip5, .descrip2, .descrip3, .descrip4 {
   left: 50%;
   transform: translate(-50%, 45%);
+}
+
+.projectsIntro {
+  color: grey;
+  padding: 0 5% 0 5%;
 }
 
 .projectStack{

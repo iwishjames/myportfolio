@@ -1,4 +1,5 @@
 console.log("It's Alive! MUAHAHAHAHA!!");
+console.log("Please tell me that at least someone got the bg-image puns!");
 
 function projectReveal0() {
   if (document.getElementById("project0").classList.contains("projectReveal")) {
