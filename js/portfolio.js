@@ -27,3 +27,17 @@ function projectReveal3() {
   } else
   document.getElementById("project3").classList.add("projectReveal");
 }
+
+function projectReveal4() {
+  if (document.getElementById("project4").classList.contains("projectReveal")) {
+    document.getElementById("project4").classList.remove("projectReveal");
+  } else
+  document.getElementById("project4").classList.add("projectReveal");
+}
+
+function projectReveal5() {
+  if (document.getElementById("project5").classList.contains("projectReveal")) {
+    document.getElementById("project5").classList.remove("projectReveal");
+  } else
+  document.getElementById("project5").classList.add("projectReveal");
+}
