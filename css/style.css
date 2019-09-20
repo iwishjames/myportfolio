@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Roboto&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +8,10 @@ body {
   font-family: sans-serif;
   margin: 0;
   background-color: black;
+}
+
+.whitey {
+  color: white;
 }
 
 .intro {
@@ -22,6 +28,8 @@ background-image:
 
 .intro p {
   padding: 0 5% 0 5%;
+  font-size: 15px;
+  font-family: "Roboto";
 }
 
 .navigation {
@@ -30,6 +38,7 @@ background-image:
   text-align: right;
   color: white;
   top: 0;
+  font-family: "Roboto";
 }
 
 .navigation li {
@@ -103,11 +112,8 @@ background-image:
 }
 
 .intro h1 {
-  animation: fadeIn 1s ease-in;
-}
-
-.intro h2 {
   animation: fadeIn 2s ease-in;
+  font-family: "Montserrat";
 }
 
 .intro p {
@@ -124,7 +130,7 @@ background-image:
 }
 
 .cardTitle {
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .projects {
@@ -137,7 +143,7 @@ background-image:
 
 @media only screen and (max-width: 425px) {
 .projects {
-  height: 1000px;
+  height: 1010px;
   padding-top: 10%;
 }
 
@@ -153,26 +159,60 @@ background-image:
   padding-top: 80px;
   margin: 0 auto;
   text-align: center;
-  height: 720px;
+  height: 585px;
   color: white;
+  overflow: hidden;
   background-size: cover;
   background-image:
     linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.0),
       rgba(0, 0, 0, 0)),
     url("../assets/bg.jpg");
 }
 @media only screen and (max-width: 425px) {
   .mainCards {
     padding-top: 12%;
+    height: 585px;
   }
 }
 
 .mainCards p {
-  padding: 0 5% 0 5%;
+  line-height: 18px;
+  font-family: "Roboto";
+}
+
+.aboutMeTitle {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe {
+  padding: 5% 2%;
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1));
+  margin: 0 20%;
+}
+
+.aboutMe a {
+  color: white;
+}
+
+@media only screen and (max-width: 425px) {
+  .aboutMe {
+    margin: 0 10%;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3));
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
 }
 
 
@@ -289,7 +329,7 @@ background-image:
 }
 
 .projectDescription {
-  font-size: 14px;
+  font-size: 15px;
   width: 350px;
   font-weight: 300;
   text-transform: none;
@@ -310,6 +350,8 @@ background-image:
 .projectsIntro {
   color: grey;
   padding: 0 5% 0 5%;
+  font-size: 15px;
+  font-family: "Roboto";
 }
 
 .projectStack{
