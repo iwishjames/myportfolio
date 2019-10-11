@@ -23,7 +23,7 @@ background-image:
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 1)),
-  url("../assets/bgdawn.jpg");
+  url("../assets/bgdawncompressed.jpg");
 }
 
 .intro p {
@@ -137,13 +137,13 @@ background-image:
   padding-top: 80px;
   margin: 0 auto;
   text-align: center;
-  height: 720px;
+  min-height: 720px;
   color: white;
 }
 
 @media only screen and (max-width: 425px) {
 .projects {
-  height: 1010px;
+  min-height: 1010px;
   padding-top: 10%;
 }
 
@@ -154,12 +154,11 @@ background-image:
 }
 
 
-
 .mainCards {
   padding-top: 80px;
   margin: 0 auto;
   text-align: center;
-  height: 585px;
+  height: 700px;
   color: white;
   overflow: hidden;
   background-size: cover;
@@ -182,7 +181,7 @@ background-image:
 @media only screen and (max-width: 425px) {
   .mainCards {
     padding-top: 12%;
-    height: 585px;
+    height: 700px;
   }
 }
 

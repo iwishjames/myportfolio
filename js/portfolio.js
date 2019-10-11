@@ -3,6 +3,12 @@ console.log("Please tell me that at least someone got the bg-image puns!");
 console.log("...The 'Dawn' of my career...the future looks 'Bright'...");
 
 function projectReveal0() {
+  document.getElementById("project1").classList.remove("projectReveal");
+  document.getElementById("project2").classList.remove("projectReveal");
+  document.getElementById("project3").classList.remove("projectReveal");
+  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project5").classList.remove("projectReveal");
+
   if (document.getElementById("project0").classList.contains("projectReveal")) {
     document.getElementById("project0").classList.remove("projectReveal");
   } else
@@ -10,6 +16,12 @@ function projectReveal0() {
 }
 
 function projectReveal1() {
+  document.getElementById("project0").classList.remove("projectReveal");
+  document.getElementById("project2").classList.remove("projectReveal");
+  document.getElementById("project3").classList.remove("projectReveal");
+  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project5").classList.remove("projectReveal");
+
   if (document.getElementById("project1").classList.contains("projectReveal")) {
     document.getElementById("project1").classList.remove("projectReveal");
   } else
@@ -17,6 +29,12 @@ function projectReveal1() {
 }
 
 function projectReveal2() {
+  document.getElementById("project1").classList.remove("projectReveal");
+  document.getElementById("project0").classList.remove("projectReveal");
+  document.getElementById("project3").classList.remove("projectReveal");
+  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project5").classList.remove("projectReveal");
+
   if (document.getElementById("project2").classList.contains("projectReveal")) {
     document.getElementById("project2").classList.remove("projectReveal");
   } else
@@ -24,6 +42,12 @@ function projectReveal2() {
 }
 
 function projectReveal3() {
+  document.getElementById("project1").classList.remove("projectReveal");
+  document.getElementById("project2").classList.remove("projectReveal");
+  document.getElementById("project0").classList.remove("projectReveal");
+  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project5").classList.remove("projectReveal");
+
   if (document.getElementById("project3").classList.contains("projectReveal")) {
     document.getElementById("project3").classList.remove("projectReveal");
   } else
@@ -31,6 +55,12 @@ function projectReveal3() {
 }
 
 function projectReveal4() {
+  document.getElementById("project1").classList.remove("projectReveal");
+  document.getElementById("project2").classList.remove("projectReveal");
+  document.getElementById("project3").classList.remove("projectReveal");
+  document.getElementById("project0").classList.remove("projectReveal");
+  document.getElementById("project5").classList.remove("projectReveal");
+
   if (document.getElementById("project4").classList.contains("projectReveal")) {
     document.getElementById("project4").classList.remove("projectReveal");
   } else
@@ -38,6 +68,12 @@ function projectReveal4() {
 }
 
 function projectReveal5() {
+  document.getElementById("project1").classList.remove("projectReveal");
+  document.getElementById("project2").classList.remove("projectReveal");
+  document.getElementById("project3").classList.remove("projectReveal");
+  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project0").classList.remove("projectReveal");
+
   if (document.getElementById("project5").classList.contains("projectReveal")) {
     document.getElementById("project5").classList.remove("projectReveal");
   } else
