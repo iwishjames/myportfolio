@@ -6,7 +6,7 @@ function projectReveal0() {
   document.getElementById("project1").classList.remove("projectReveal");
   document.getElementById("project2").classList.remove("projectReveal");
   document.getElementById("project3").classList.remove("projectReveal");
-  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project6").classList.remove("projectReveal");
   document.getElementById("project5").classList.remove("projectReveal");
 
   if (document.getElementById("project0").classList.contains("projectReveal")) {
@@ -19,7 +19,7 @@ function projectReveal1() {
   document.getElementById("project0").classList.remove("projectReveal");
   document.getElementById("project2").classList.remove("projectReveal");
   document.getElementById("project3").classList.remove("projectReveal");
-  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project6").classList.remove("projectReveal");
   document.getElementById("project5").classList.remove("projectReveal");
 
   if (document.getElementById("project1").classList.contains("projectReveal")) {
@@ -32,7 +32,7 @@ function projectReveal2() {
   document.getElementById("project1").classList.remove("projectReveal");
   document.getElementById("project0").classList.remove("projectReveal");
   document.getElementById("project3").classList.remove("projectReveal");
-  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project6").classList.remove("projectReveal");
   document.getElementById("project5").classList.remove("projectReveal");
 
   if (document.getElementById("project2").classList.contains("projectReveal")) {
@@ -45,7 +45,7 @@ function projectReveal3() {
   document.getElementById("project1").classList.remove("projectReveal");
   document.getElementById("project2").classList.remove("projectReveal");
   document.getElementById("project0").classList.remove("projectReveal");
-  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project6").classList.remove("projectReveal");
   document.getElementById("project5").classList.remove("projectReveal");
 
   if (document.getElementById("project3").classList.contains("projectReveal")) {
@@ -54,24 +54,24 @@ function projectReveal3() {
   document.getElementById("project3").classList.add("projectReveal");
 }
 
-function projectReveal4() {
+function projectReveal6() {
   document.getElementById("project1").classList.remove("projectReveal");
   document.getElementById("project2").classList.remove("projectReveal");
   document.getElementById("project3").classList.remove("projectReveal");
   document.getElementById("project0").classList.remove("projectReveal");
   document.getElementById("project5").classList.remove("projectReveal");
 
-  if (document.getElementById("project4").classList.contains("projectReveal")) {
-    document.getElementById("project4").classList.remove("projectReveal");
+  if (document.getElementById("project6").classList.contains("projectReveal")) {
+    document.getElementById("project6").classList.remove("projectReveal");
   } else
-  document.getElementById("project4").classList.add("projectReveal");
+  document.getElementById("project6").classList.add("projectReveal");
 }
 
 function projectReveal5() {
   document.getElementById("project1").classList.remove("projectReveal");
   document.getElementById("project2").classList.remove("projectReveal");
   document.getElementById("project3").classList.remove("projectReveal");
-  document.getElementById("project4").classList.remove("projectReveal");
+  document.getElementById("project6").classList.remove("projectReveal");
   document.getElementById("project0").classList.remove("projectReveal");
 
   if (document.getElementById("project5").classList.contains("projectReveal")) {
